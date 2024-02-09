@@ -1,0 +1,114 @@
+/* mobile respons css start */
+
+@media (max-width: 450px) {
+  .main-container ,.about-section-container {
+    flex-direction: column;
+  }
+
+  .text-container h1,
+  h2 {
+    font-size: 12vw;
+  }
+
+  .about-right-container {
+    overflow:scroll;
+    padding: 1rem;
+  }
+
+
+  .about-hed-container span{
+    font-size:2rem;
+  }
+
+  
+
+  .about-right-container{
+    margin-top: 1rem;
+  }
+
+  .hed-container{
+    font-size:2rem;
+  }
+
+ 
+
+
+
+
+
+}
+
+
+/* mobile respons css end */
+
+
+/* tablets/ipads respons css start */
+
+@media (min-width: 450px) and (max-width: 1024px) {
+  .left-contaienr {
+    background-position: bottom;
+  }
+  .about-left-container{
+    background-position: bottom;
+    margin-top: -3rem;
+  }
+
+  .about-section-container {
+    height: 50vh;
+  }
+
+
+  .about-hed-container span{
+    font-size:2rem;
+  }
+
+  .hed-container{
+    font-size:2rem;
+  }
+
+  .card H5{
+    font-size: 0.60rem;
+  }
+
+
+
+}
+
+
+@media (min-width: 540px) and (max-width: 740px){
+  .about-right-container {
+    overflow:scroll;
+    padding: 1rem;
+  }
+  
+
+  .about-hed-container span{
+    font-size:2rem;
+  }
+
+  .hed-container{
+    font-size:2rem;
+  }
+  .card H5{
+    font-size: 0.60rem;
+  }
+
+}
+
+/* tablets/ipads respons css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
